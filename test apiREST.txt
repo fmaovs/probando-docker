@@ -1,0 +1,47 @@
+/* leer todos los productos GET */
+http://localhost:3001/api/producto/
+
+
+/* leer un producto GET */
+http://localhost:3001/api/producto/990099
+
+
+/* crear un prodcuto  POST*/
+http://localhost:3001/api/producto/
+{
+"id_producto":"990099",
+"nombre_producto": "cosote",
+"descripcion_producto": "It is a long established fact . ",
+"precio_producto": "300",
+"foto_producto":"http://localhost/appsena/assets/images/020001.JPG",
+"id_categoria": "99",
+"nombre_categoria": "golosinas"
+}
+
+
+
+/* editar  un producto PUT */
+http://localhost:3001/api/producto/990099
+{
+"nombre_producto": "cosote",
+"descripcion_producto": "It is a long established fact . ",
+"precio_producto": "300",
+"foto_producto":"http://localhost/appsena/assets/images/020001.JPG",
+"id_categoria": "99",
+"nombre_categoria": "golosinas"
+}
+
+
+/* borrar  un producto DELETE*/
+http://localhost:3001/api/producto/990099
+
+
+/* leer todos las categorias  GET */
+http://localhost:3001/api/categoria/
+
+
+
+
+
+
+
