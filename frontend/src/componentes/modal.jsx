@@ -1,4 +1,4 @@
-import './Modal.css';
+import './modal.css';
 
 import FormularioCrear from './formularioCrear';
 import FormularioEditar from './formularioEditar';

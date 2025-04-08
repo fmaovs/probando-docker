@@ -69,7 +69,7 @@ export default function  Productos () {
 
     useEffect(() => {
         getProductos().then ((response) => {
-           //console.log (" response componete   " + JSON.stringify(response.data.datos))
+            console.log (" response componete   " + JSON.stringify(response.data.datos))
             setProductos(response.data.datos)
         })
         .catch ((error) => {
